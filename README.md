@@ -177,7 +177,7 @@ Prequisites:
 
 Steps:
 
-•	Clone the repo: git clone https://github.com/jheel-cs/Healthcare-Project.git
+•	Clone the repo: git clone https://github.com/khushiyadav-cs/Healthcare-Project.git
 •	Run the scripts in order in a Snowflake worksheet: 1.Healthcare_DB.sql, 2.Healthcare_DB.Bronze.sql, 3.Healthcare_DB.Silver.sql,   4.Healthcare_DB.silver.dim.sql, 5.Healthcare_DB.silver.facts.sql, 6.Healthcare_DB.Gold.sql
 •	In 1.Healthcare_DB.sql, update the S3 stage credentials with your own AWS_KEY_ID and AWS_SECRET_KEY
 •	Run each script sequentially to build the Bronze, Silver, and Gold layers
